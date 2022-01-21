@@ -24,6 +24,7 @@ const App = () => {
    
   return (
     <>
+    <h1>LOOK AT THESE BOIS</h1>
     <img src={dogs} />
     </>
    
