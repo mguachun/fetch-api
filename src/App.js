@@ -30,11 +30,11 @@ const App = () => {
 
   return (
   
-    <div>
+    <div className="container">
       <h2 class="text-white">Having a bad day?</h2>
       <h3>Take a gander at these good bois!</h3>
       <img alt="a random dog" src={dogs} />
-      <div>
+      <div class="dog">
         <>
           <ButtonGroup size="lg" className="mb-2">
             <Button onClick={refreshPage}>Show Me Another One! </Button>
