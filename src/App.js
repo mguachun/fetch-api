@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
 import { Card, Button, ButtonGroup } from 'react-bootstrap';
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Work+Sans&display=swap');
+</style>
 
 const App = () => {
   const [dogs, setDogs] = useState([]);
