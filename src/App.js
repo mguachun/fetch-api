@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
-import { Card, Button, ButtonGroup } from 'react-bootstrap';
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Work+Sans&display=swap');
-</style>
+import { Button, ButtonGroup } from 'react-bootstrap';
+import './index.css'
 
 const App = () => {
   const [dogs, setDogs] = useState([]);
@@ -33,7 +31,7 @@ const App = () => {
   return (
   
     <div>
-      <h2>Having a bad day?</h2>
+      <h2 class="text-white">Having a bad day?</h2>
       <h3>Take a gander at these good bois!</h3>
       <img alt="a random dog" src={dogs} />
       <div>
