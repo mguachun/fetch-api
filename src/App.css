@@ -25,8 +25,12 @@ body {
 
 .dog {
   text-align: center;
-  height: 100%;
-  width: auto;
+
  
 }
 
+.container {
+text-align: center;
+height: 100%;
+  width: auto;
+}
