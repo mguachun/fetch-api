@@ -32,7 +32,7 @@ const App = () => {
   
     <div className="container">
       <h2 class="text-white">Having a bad day?</h2>
-      <h3>Take a gander at these good bois!</h3>
+      <h3>Take a gander at these good bois! 💝  </h3>
       <img alt="a random dog" src={dogs} />
       <div class="dog">
         <>
