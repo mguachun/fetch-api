@@ -42,6 +42,8 @@ const App = () => {
           </ButtonGroup>
         </>
       </div>
+
+      Want to never have a bad day ever again? Think about adopting! 
     </div>
 
 
