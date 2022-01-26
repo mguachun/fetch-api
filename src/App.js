@@ -36,6 +36,7 @@ const App = () => {
       <img alt="a random dog" src={dogs} />
       <div class="dog">
         <>
+        <br></br>
           <ButtonGroup size="lg" className="mb-2">
             <Button onClick={refreshPage}>Show Me Another One! </Button>
           </ButtonGroup>
