@@ -30,7 +30,8 @@ const App = () => {
 
   return (
   
-    <div className="container">
+    <div class="container">
+      <br></br>
       <h2 class="text-white">Having a bad day?</h2>
       <h3>Take a gander at these good bois! 💝  </h3>
       <img alt="a random dog" src={dogs} />
@@ -42,10 +43,14 @@ const App = () => {
           </ButtonGroup>
         </>
       </div>
+      <br></br>
+      <img class="heart" src="https://media.giphy.com/media/cj2c6lmeuBGo508sSL/giphy.gif" alt="pixel heart"/>
 
       Want to never have a bad day ever again? Think about adopting! 
-      <a href="https://www.aspca.org/nyc/aspca-adoption-center/adoptable-dogs">ASPCA</a>
+      <a href="https://www.aspca.org/nyc/aspca-adoption-center/adoptable-dogs"> ASPCA</a>
       
+      <img class="heart" src="https://media.giphy.com/media/cj2c6lmeuBGo508sSL/giphy.gif" alt="pixel heart"/>
+
     </div>
 
 
