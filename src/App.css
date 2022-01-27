@@ -25,12 +25,15 @@ body {
 
 .dog {
   text-align: center;
-
- 
 }
 
 .container {
 text-align: center;
-height: 100%;
-  width: auto;
+height: 60%;
+width: auto;
+}
+
+.heart{
+height: 10%;
+width: 5%;
 }
